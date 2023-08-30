@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main center">
+        <div class="heading">Добро пожаловать<br>на мой сайт !</div>
+        <div class="text">Вам предстоит пройти несколько увлекательных<br>игр. Если готов нажимай <b>поехали</b> и
+            <b>приступай</b>
+        </div>
+        <a href="#goToGames"><button class="play">Поехали!</button></a>
+    </section>
+
+    <section id="goToGames" class="content center">
+        <div class="game game_1"><a class="gameText" href="#playGames-1">Игра 1</a></div>
+        <div class="game game_2"><a class="gameText" href="#playGames-2">Игра 2</a></div>
+        <div class="game game_3"><a class="gameText" href="#">Игра 3</a></div>
+    </section>
+
+    <section id="playGames-1" class="blok blokGame1 center">
+        <div>
+            <h2 class="title">Времена года!</h2>
+            <h3 class="text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы<br>узнаете к какому времени
+                года
+                он относится</h3>
+            <a href="#"><button class="play" type="submit" onclick="season()">Играть!</button></a>
+            <script src="games.js"></script>
+
+        </div>
+        <div><img class="icon" src="icon-1.png" alt="icon-1"></div>
+    </section>
+
+    <section id="playGames-2" class="blok blokGame2 center">
+        <div><img class="icon" src="icon-2.png" alt="icon-2"></div>
+        <div>
+            <h2 class="title">Запомни слова</h2>
+            <h3 class="text">При нажатии на кнопку играть, вы увидите несколько слов,<br>которые вам необходимо
+                запомнить.
+            </h3>
+            <a href="#"><button class="play">Играть</button></a>
+        </div>
+    </section>
+</body>
+
+</html>
