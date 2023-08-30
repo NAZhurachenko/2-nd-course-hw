@@ -3,10 +3,10 @@ alert(a);
 a = 20;
 alert(a);
 
-let year = 2007;
+const year = 2007;
 alert('Год выпуска первого iPhone: ' + year);
 
-let name = "Брендон Айк";
+const name = "Брендон Айк";
 alert('Имя создателя языка JavaScript: ' + name);
 
 let z = 10;
