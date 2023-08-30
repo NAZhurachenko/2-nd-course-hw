@@ -76,6 +76,8 @@ body {
   height: 300px;
   transition: all 1s;
   border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
 }
 .game:hover {
   transform: scale(1.05);
@@ -90,6 +92,7 @@ body {
   color: #FFF;
   text-decoration: none;
   padding-left: 32px;
+  margin-bottom: 32px;
 }
 
 .game_1 {
