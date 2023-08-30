@@ -21,33 +21,33 @@
     </section>
 
     <section id="goToGames" class="content center">
-        <div class="game game_1"><a class="gameText" href="#playSeasons">Игра 1</a></div>
-        <div class="game game_2"><a class="gameText" href="#playWords">Игра 2</a></div>
-        <div class="game game_3"><a class="gameText" href="#">Игра 3</a></div>
+        <div class="game game_1"><a href="#playSeasons" class="gameText">Игра 1</a></div>
+        <div class="game game_2"><a href="#playWords" class="gameText">Игра 2</a></div>
+        <div class="game game_3"><a href="#" class="gameText">Игра 3</a></div>
     </section>
 
-    <section id="playSeasons" class="blok blokGame1 center">
-        <div>
+    <section class="blok blokGame1 center">
+        <div id="playSeasons">
             <h2 class="title">Времена года!</h2>
             <h3 class="text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы<br>узнаете к какому времени
                 года
                 он относится</h3>
             <a href="#"><button class="play" type="submit" onclick="season()">Играть!</button></a>
             <script src="game.js"></script>
-
         </div>
         <div><img class="icon" src="icon-1.png" alt="icon-1"></div>
     </section>
 
-    <section id="playWords" class="blok blokGame2 center">
-        <div><img class="icon" src="icon-2.png" alt="icon-2"></div>
+    <section class="blok blokGame2 center">
+        <div id="playWords"><img class="icon" src="icon-2.png" alt="icon-2"></div>
         <div>
             <h2 class="title">Запомни слова</h2>
             <h3 class="text">При нажатии на кнопку играть, вы увидите несколько слов,<br>которые вам необходимо
                 запомнить.
             </h3>
-            <a href="#"><button class="play">Играть</button></a>
+            <a href="#"><button class="play" type="submit" onclick="words()">Играть</button></a>
             <script src="gameWords.js"></script>
+        </div>
         </div>
     </section>
 </body>
