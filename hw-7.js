@@ -1,5 +1,6 @@
 //Задание 1
-console.log('js'.toUpperCase());
+const str = 'js';
+console.log(str.toUpperCase());
 
 //Задание 2
 let arr = [];
@@ -22,9 +23,7 @@ console.log(Math.max(52, 53, 49, 77, 21, 32));
 
 //Задание 5
 function getRandomIntInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return (Math.random() * (max - min)) + min;
 }
 console.log(getRandomIntInclusive(1, 10));
 
